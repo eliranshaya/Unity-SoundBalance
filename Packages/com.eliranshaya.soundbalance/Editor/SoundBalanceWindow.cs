@@ -224,10 +224,11 @@ namespace SoundBalance.EditorTools
                 note = $" (limited, peak was {20f * Mathf.Log10(peak):+0.0} dBFS)";
             }
 
-            string fileName = clip.name;
+            string baseName = $"{clip.name}_balanced_by_{_referenceClip.name}";
+            string fileName = baseName;
             int suffix = 1;
             while (!usedNames.Add(fileName))
-                fileName = $"{clip.name}_{++suffix}";
+                fileName = $"{baseName}_{++suffix}";
 
             byte[] ogg = OggFileWriter.Encode(samples, channels, sampleRate, _oggQuality);
             File.WriteAllBytes($"{outputFolder}/{fileName}.ogg", ogg);
