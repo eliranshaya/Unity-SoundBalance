@@ -28,7 +28,7 @@ https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.elirans
 To lock to a specific version, append the tag:
 
 ```
-https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.1.0
+https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.1.1
 ```
 
 You can also add it manually by editing your project's `Packages/manifest.json`:
@@ -43,7 +43,7 @@ You can also add it manually by editing your project's `Packages/manifest.json`:
 
 ## Quick start
 
-1. Open **Tools → Sound Balance**.
+1. Open **Tools → Sound Toolkit → Sound Balance**.
 2. Drag a reference AudioClip into the **Reference Sound** field — this is the
    sound whose loudness all other sounds will match.
 3. Drag the AudioClips you want to balance into the drop area. You can drag
@@ -66,7 +66,7 @@ summary of the measured loudness and applied gain for every clip. Click
 
 ## Silence Trimmer
 
-The package also includes a silence-trimming tool: **Tools → Silence Trimmer**.
+The package also includes a silence-trimming tool: **Tools → Sound Toolkit → Silence Trimmer**.
 
 1. Drag an AudioClip into the window — its waveform is displayed.
 2. **Automatic**: set the silence threshold (dB) and padding, then click

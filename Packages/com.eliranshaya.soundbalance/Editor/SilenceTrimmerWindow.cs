@@ -38,7 +38,7 @@ namespace SoundBalance.EditorTools
 
         private AudioSource _previewSource;
 
-        [MenuItem("Tools/Silence Trimmer")]
+        [MenuItem("Tools/Sound Toolkit/Silence Trimmer")]
         public static void Open()
         {
             var window = GetWindow<SilenceTrimmerWindow>("Silence Trimmer");

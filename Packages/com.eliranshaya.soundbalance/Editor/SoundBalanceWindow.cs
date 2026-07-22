@@ -23,7 +23,7 @@ namespace SoundBalance.EditorTools
         private readonly List<string> _lastResults = new List<string>();
         private string _lastOutputFolder;
 
-        [MenuItem("Tools/Sound Balance")]
+        [MenuItem("Tools/Sound Toolkit/Sound Balance")]
         public static void Open()
         {
             var window = GetWindow<SoundBalanceWindow>("Sound Balance");
