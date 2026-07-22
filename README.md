@@ -28,7 +28,7 @@ https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.elirans
 To lock to a specific version, append the tag:
 
 ```
-https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.0.0
+https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.0.1
 ```
 
 You can also add it manually by editing your project's `Packages/manifest.json`:
@@ -79,7 +79,8 @@ Supports any audio format Unity can import: wav, ogg, mp3, aiff, flac, and more.
 
 ## Credits
 
-OGG encoding uses [OggVorbisEncoder](https://github.com/SteveLillis/.NET-Ogg-Vorbis-Encoder) (MIT).
+OGG encoding uses [OggVorbisEncoder](https://github.com/SteveLillis/.NET-Ogg-Vorbis-Encoder) (MIT),
+embedded as source (no DLL dependencies) so it works on every Unity version out of the box.
 
 ## License
 

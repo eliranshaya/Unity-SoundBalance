@@ -1,6 +1,6 @@
 {
   "name": "com.eliranshaya.soundbalance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Sound Balance",
   "description": "Balance the loudness of multiple AudioClips to match a reference sound (ITU-R BS.1770 LUFS) and export them as OGG files into a timestamped folder under Assets/BalancedSounds/.",
   "unity": "2021.3",
