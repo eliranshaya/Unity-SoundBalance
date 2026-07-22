@@ -28,7 +28,7 @@ https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.elirans
 To lock to a specific version, append the tag:
 
 ```
-https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.0.3
+https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.1.0
 ```
 
 You can also add it manually by editing your project's `Packages/manifest.json`:
@@ -63,6 +63,22 @@ Assets/BalancedSounds/2026-07-22_14-30-05/
 Each file is named `{clip}_balanced_by_{reference}.ogg`, and the window shows a
 summary of the measured loudness and applied gain for every clip. Click
 **Show Output Folder** to jump to the results in the Project window.
+
+## Silence Trimmer
+
+The package also includes a silence-trimming tool: **Tools → Silence Trimmer**.
+
+1. Drag an AudioClip into the window — its waveform is displayed.
+2. **Automatic**: set the silence threshold (dB) and padding, then click
+   **Auto Detect Silence** — the trim markers snap around the audible part.
+3. **Manual**: drag the yellow markers directly on the waveform, or type exact
+   start/end times, to choose the region to keep.
+4. **▶ Preview** plays the trimmed result, including the anti-click edge fade.
+5. **Export Trimmed OGG** writes the result to a timestamped folder under
+   `Assets/TrimmedSounds/` — the original asset is never touched.
+
+Trimming leading silence from SFX also reduces perceived latency in game —
+the sound starts the moment it is played.
 
 ## How it works
 
