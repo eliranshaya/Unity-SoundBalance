@@ -28,7 +28,7 @@ https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.elirans
 To lock to a specific version, append the tag:
 
 ```
-https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.0.2
+https://github.com/eliranshaya/Unity-SoundBalance.git?path=/Packages/com.eliranshaya.soundbalance#1.0.3
 ```
 
 You can also add it manually by editing your project's `Packages/manifest.json`:
